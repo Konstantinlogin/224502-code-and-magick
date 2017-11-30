@@ -12,9 +12,9 @@ Element.prototype.removeClass = function (classname) {
   this.classList.remove(classname);
 };
 
-var randomizeNumbers = function (min, max){
-    return Math.floor(Math.random() * (max - min)) + min;
-}
+var randomizeNumbers = function (min, max) {
+  return Math.floor(Math.random() * (max - min)) + min;
+};
 
 var generateSimilarWizardsArray = function (elementsCount) {
   var array = [];
